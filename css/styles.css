@@ -30,9 +30,9 @@ h1 {
   margin: 10px;
 }
 
-.Chicken .section-title {backgound-color: blue; }
-.Beef .section-title {backgound-color: yellow; }
-.Sushi .section-title {backgound-color: green; }
+.section chicken .section-title {backgound-color: blue; }
+.section beef .section-title {backgound-color: yellow; }
+.section sushi .section-title {backgound-color: green; }
 
 @media (min-width : 992px) {
   .section {
@@ -57,7 +57,7 @@ h1 {
 }
 
 @media (max-width: 767px) {
-  .section {
+  .section:nth-child(2){
     width: 100%;
     margin-bottom: 20px;
   }
