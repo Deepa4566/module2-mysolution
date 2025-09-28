@@ -26,12 +26,13 @@ h1 {
   right: 0;
   backgound-color: red;
   padding: 5px 10px;
-  font-size: 2em;
+  font-size: 24px;
+  margin: 10px;
 }
 
-.chicken .section-title {backgound-color: blue; }
-.beef .section-title {backgound-color: yellow; }
-.sushi .section-title {backgound-color: green; }
+.Chicken .section-title {backgound-color: blue; }
+.Beef .section-title {backgound-color: yellow; }
+.Sushi .section-title {backgound-color: green; }
 
 @media (min-width : 992px) {
   .section {
@@ -46,7 +47,7 @@ h1 {
 @media (min-width : 768px) and (max-width : 991px) {
   .section {
     width: 47%;
-    margin-ri0ght: 6%;
+    margin-right: 6%;
   }
   .section:nth-child(3) {
     width: 100%;
